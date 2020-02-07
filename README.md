@@ -1,6 +1,6 @@
 # Server Architectures
 
-This repository contains the presentation and demos from my event "Server Architectures with ASP.NET".
+This repository contains the presentation and demos from my event "Server Architectures with ASP.NET". If you liked the topic, the lecture, or the code, please consider giving me a star. Thank you!
 
 Event sponsor:
 
