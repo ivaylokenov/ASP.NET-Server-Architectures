@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>DefaultTemplate.Domain</RootNamespace>
+    <AssemblyName>DefaultTemplate.Domain</AssemblyName>
+  </PropertyGroup>
+
+</Project>

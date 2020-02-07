@@ -1,0 +1,21 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Dummy Connection"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "IdentityServer": {
+    "Key": {
+      "Type": "Development"
+    },
+    "Clients": {
+      "Blog.Client": {
+        "Profile": "IdentityServerSPA"
+      }
+    }
+  },
+  "AllowedHosts": "*"
+}
