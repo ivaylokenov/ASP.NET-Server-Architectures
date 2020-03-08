@@ -36,8 +36,7 @@
                         .WithEntities<BlogDbContext>(TestData.Articles)))
                 .Calling(c => c.Details(new ArticleDetailsQuery { Id = id }))
                 .ShouldReturn()
-                .Object(result => result
-                    .WithModelOfType<ArticleDetailsOutputModel>()
+                .ActionResult<ArticleDetailsOutputModel>(result => result
                     .Passing(model => model.Id == id && model.Author == TestUser.Username));
 
         [Theory]
@@ -69,8 +68,7 @@
                     }))
                 .AndAlso()
                 .ShouldReturn()
-                .Object(result => result
-                    .WithModelOfType<int>()
+                .ActionResult<int>(result => result
                     .Passing(model => model != 0));
     }
 }
